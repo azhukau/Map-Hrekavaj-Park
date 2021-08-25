@@ -1385,14 +1385,12 @@ Footprint: 4.8 m x 4.8 m.</description><point_symbol rotatable="true" inner_radi
 </templates>
 <view>
 <grid color="#646464" display="0" alignment="0" additional_rotation="0" unit="1" h_spacing="500" v_spacing="500" h_offset="0" v_offset="0" snapping_enabled="true"/>
-<map_view zoom="13.0243" position_x="78804" position_y="-140088"><map opacity="0.5" visible="true"/><templates count="4"><ref template="1" opacity="1"/><ref template="2" opacity="1"/><ref template="0" visible="true" opacity="1"/><ref template="3" visible="true" opacity="1"/></templates></map_view>
+<map_view zoom="3.25607" position_x="96102" position_y="-162221"><map opacity="0.5" visible="true"/><templates count="4"><ref template="1" opacity="1"/><ref template="2" opacity="1"/><ref template="0" visible="true" opacity="1"/><ref template="3" visible="true" opacity="1"/></templates></map_view>
 </view>
-<print scale="4000" resolution="600" mode="vector"><page_format paper_size="Letter" orientation="portrait" h_overlap="5" v_overlap="5"><dimensions width="215.9" height="279.4"/><page_rect left="4.19" top="4.19" width="207.43" height="270.93"/></page_format><print_area left="-102.063" top="-275.926" width="360.009" height="375.363"/></print>
+<print scale="2000" resolution="600" mode="raster"><page_format paper_size="A4" orientation="portrait" h_overlap="5" v_overlap="5"><dimensions width="210" height="297"/><page_rect left="0" top="0" width="210" height="297"/></page_format><print_area left="67.66" top="-202.612" width="102.336" height="145.485"/></print>
 </barrier>
 <barrier version="6" required="0.6.0">
 <undo>
-<step type="1"><affected_objects part="0"><ref object="692"/></affected_objects></step>
-<step type="1"><affected_objects part="0"><ref object="693"/></affected_objects></step>
 <step type="1"><affected_objects part="0"><ref object="694"/></affected_objects></step>
 <step type="1"><affected_objects part="0"><ref object="695"/></affected_objects></step>
 <step type="0"><affected_objects part="0"><ref object="692"/></affected_objects><contained_objects count="1"><object type="0" symbol="182" rotation="1.07714"><coords count="1">104310 -163159;</coords></object></contained_objects></step>
@@ -1519,6 +1517,8 @@ Footprint: 4.8 m x 4.8 m.</description><point_symbol rotatable="true" inner_radi
 <step type="0"><affected_objects part="0"><ref object="764"/></affected_objects><contained_objects count="1"><object type="1" symbol="95"><coords count="39">73457 -139768;73387 -138893;73407 -138097 1;73615 -137785;73704 -137589;73944 -137301 1;74088 -137128;74160 -137004;74362 -136903 1;74713 -136727;74884 -136550;75267 -136465;76132 -135958;76491 -135192 1;76491 -134881;76363 -134691;76461 -134396 1;76567 -134079;76751 -133958;76879 -133650;77227 -133053;77595 -132417;78401 -131989;79525 -132039;80161 -132247;81800 -132611;82208 -132646;82947 -132646;83207 -132618;83404 -132646;83657 -132815;83981 -133547;83876 -134229;83707 -134630;83798 -135516;84171 -136276;84642 -136536;85472 -136698;85740 -136733;</coords><pattern rotation="0"><coord x="0" y="0"/></pattern></object></contained_objects></step>
 <step type="0"><affected_objects part="0"><ref object="764"/></affected_objects><contained_objects count="1"><object type="1" symbol="95"><coords count="25">73457 -139768 1;73357 -138501;73259 -138320;73407 -138097 1;73711 -137641;74164 -136710;75267 -136465 1;76862 -136110;76383 -134632;76461 -134396 1;76468 -134374;77421 -132575;77595 -132417 1;78608 -131500;79497 -132164;81800 -132611 1;82631 -132775;83411 -132429;83657 -132815 1;84532 -134178;83380 -134027;83798 -135516 1;84099 -136579;84646 -136588;85740 -136733;</coords><pattern rotation="0"><coord x="0" y="0"/></pattern></object></contained_objects></step>
 <step type="1"><affected_objects part="0"><ref object="765"/></affected_objects></step>
+<step type="1"><affected_objects part="0"><ref object="766"/></affected_objects></step>
+<step type="2"><affected_objects part="0"><ref object="766"/></affected_objects><contained_objects count="1"><object type="1" symbol="9"><coords count="2">-62336 -92863;161489 -236448;</coords><pattern rotation="0"><coord x="0" y="0"/></pattern></object></contained_objects></step>
 </undo>
 <redo>
 </redo>
